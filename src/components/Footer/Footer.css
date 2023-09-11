@@ -1,0 +1,36 @@
+.bg-lt-brown {
+  background-color: #ac9980;
+  color: #ccc;
+}
+.bg-brown {
+  background-color: #8f5e1e;
+}
+.footer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-flex h4 {
+  margin: 1.5em;
+}
+.btn-order {
+  height: 3rem;
+  width: 15rem;
+  font-size: 18px;
+  color: #8c8b8b;
+  background-color: #cecccc;
+}
+.hover-btn-order:hover {
+  background-color: #b2dd45;
+}
+.hover-btn-order {
+  background-color: #e8cc17;
+  color: #703b09;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.btn-more-less:hover {
+  background-color: #8f5e1e8d;
+}
+.btn-less {
+  cursor: not-allowed;
+}

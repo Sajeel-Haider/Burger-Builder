@@ -1,0 +1,23 @@
+.order-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.ingr-container {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+}
+.ingr-container p {
+  margin: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 1%;
+}
+.price-container {
+  margin-left: 4%;
+  margin-bottom: 2%;
+}
+.bold {
+  font-weight: bolder;
+}

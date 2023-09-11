@@ -1,0 +1,30 @@
+.nav {
+  background-color: #703b09;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+.logo {
+  width: 5rem;
+}
+.nav-item ul {
+  display: flex;
+  flex-direction: row;
+}
+.nav-item ul li {
+  margin-right: 2rem;
+}
+.nav-item ul li:hover {
+  background-color: #8f5c2c;
+  border-bottom: 5px solid rgba(0, 0, 255, 0.5);
+}
+.active {
+  background-color: #8f5c2c;
+  border-bottom: 5px solid rgba(0, 0, 255, 0.5);
+}
+.len-message {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
